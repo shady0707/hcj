@@ -20,3 +20,6 @@
 3. pseudo-class selector:
 
    selector : pseudo-class {}
+
+4. alwasy escape: <, >, &, 
+   use **&lt;**, **&gt;**, **&amp;** instead
