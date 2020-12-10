@@ -23,3 +23,9 @@
 
 4. alwasy escape: <, >, &, 
    use **&lt;**, **&gt;**, **&amp;** instead
+
+5. \<section>: a generic secion of a document, typically with a heading. An introduction, content, or contact information can be a section.  
+    \<div>: no special meaning. When no other oelement is suitable, choose this one (poor accessibility).  
+    \<article>: indipendent item section of content, **must have \<h1> tag as title**. Such as a blog post, newspaper article, etc. It's an independent content.  
+    \<nav>: navigation links.  
+    \<p>: a paragraph, automatically add a single blank line before and after each \<p> element.

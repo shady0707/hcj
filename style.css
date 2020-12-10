@@ -9,9 +9,9 @@ li {
     list-style: upper-roman;
 }
 
-article > p {
-    color: #8289dd;
+article  {
     background-color:  lavender;
+    padding: 5px;
 }
 
 .grey {
@@ -39,3 +39,29 @@ ul li:nth-child(2) {
     color: rgb(82, 189, 189);
 }
 
+.p1 {
+    /* background-color: #f5a781; */
+    margin: 10px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 49%;
+    height: 300px;
+    box-sizing: border-box;
+    float: left;
+    clear: both;
+    
+}
+
+.p2 {
+    background-image: url('gugu1.JPG');
+    /*box-sizing: border-box;*/
+    margin-top: 10px;
+    /* background-color: azure; */
+    width: 49%;
+    height: 300px;
+    color: #f4bfff;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: center;
+    float: right;
+}
