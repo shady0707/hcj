@@ -104,3 +104,38 @@ p {
 #cuatro {
     background-color: #b1a1c3;
 }
+
+#media1 {
+    background-color: #cc3ce9;
+    height: 500px;
+    width: 1000px;
+}
+
+#media2 {
+    background-color: #ff6113;
+    height: 300px;
+    width: 1200px;
+}
+
+@media (min-width: 1200px) {
+    #media1 {
+        width: 120%;
+        background-color: #75f56c;
+    }
+    
+    #media2 {
+        width: 700px;
+        background-color: #9b50f1;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+    #media1 {
+        width: 50%;
+        background-color: #21685e;
+    }
+    #media2 {
+        width: 30%;
+        background-color: #ebcbfd;
+    }
+}
