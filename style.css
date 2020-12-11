@@ -39,8 +39,19 @@ ul li:nth-child(2) {
     color: rgb(82, 189, 189);
 }
 
+section {
+    position: relative;
+    clear: both;
+    /* margin: 16px; */
+}
+p {
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
 .p1 {
-    /* background-color: #f5a781; */
+    background-color: #f5a781;
     margin: 10px;
     padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -48,7 +59,7 @@ ul li:nth-child(2) {
     height: 300px;
     box-sizing: border-box;
     float: left;
-    clear: both;
+    /* clear: both; */
     
 }
 
@@ -56,7 +67,7 @@ ul li:nth-child(2) {
     background-image: url('gugu1.JPG');
     /*box-sizing: border-box;*/
     margin-top: 10px;
-    /* background-color: azure; */
+    background-color: azure;
     width: 49%;
     height: 300px;
     color: #f4bfff;
@@ -64,4 +75,32 @@ ul li:nth-child(2) {
     background-size: 150px 150px;
     background-position: center;
     float: right;
+    /* clear: both; */
+}
+
+#uno {
+   color: blueviolet;
+   background-color: #ebcbfd;
+   position: relative;
+   top: 150px;
+   left: 150px;
+   clear: both;
+   /* margin: 16px; */
+   clear: both;
+}
+
+#dos {
+    background-color: #a5b2a4;
+    /* margin: 16px; */
+}
+
+#tres {
+    background-color: #c249a1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#cuatro {
+    background-color: #b1a1c3;
 }
