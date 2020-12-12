@@ -29,3 +29,4 @@
     \<article>: indipendent item section of content, **must have \<h1> tag as title**. Such as a blog post, newspaper article, etc. It's an independent content.  
     \<nav>: navigation links.  
     \<p>: a paragraph, automatically add a single blank line before and after each \<p> element.
+    >
