@@ -1,3 +1,4 @@
 *.pdf
 *.gif
 *.jpg
+.DS_Store
